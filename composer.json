@@ -1,0 +1,26 @@
+{
+  "name": "sztyup/proxify",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "László Csupity",
+      "email": "sztyup@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^6.5.5",
+    "symfony/console": "^5.1.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Proxyify\\": "src/"
+    }
+  }
+}
