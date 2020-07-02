@@ -13,10 +13,12 @@
     "ext-pdo": "*",
     "ext-pdo_mysql": "*",
     "ext-json": "*",
+    "ext-pcntl": "*",
     "guzzlehttp/guzzle": "^6.5",
     "symfony/console": "^5.1",
     "vlucas/phpdotenv": "^5.0",
-    "pda/pheanstalk": "^4.0"
+    "pda/pheanstalk": "^4.0",
+    "symfony/lock": "^5.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
