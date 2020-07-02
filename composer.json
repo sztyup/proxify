@@ -9,18 +9,21 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.4",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
     "ext-json": "*",
-    "ext-mbstring": "*",
-    "guzzlehttp/guzzle": "^6.5.5",
-    "symfony/console": "^5.1.2"
+    "guzzlehttp/guzzle": "^6.5",
+    "symfony/console": "^5.1",
+    "vlucas/phpdotenv": "^5.0",
+    "pda/pheanstalk": "^4.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "Proxyify\\": "src/"
+      "Proxify\\": "src/"
     }
   }
 }
