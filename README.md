@@ -8,3 +8,5 @@ This process is responsible for distributing the tasks between the workers.
 By its nature it can only be run exclusively.
 ### Worker
 The workers are pulling tasks of the queue and processing them one-by-one.
+
+You can run one distributor and unlimited number of workers.
